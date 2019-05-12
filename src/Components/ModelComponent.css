@@ -1,0 +1,16 @@
+.Create-Model {
+  height: 100%;
+  width: 100%;
+}
+
+.Model-Container{
+  height: 100%;
+}
+
+.material-icons {
+  color: red;
+}
+
+.material-icons .md-16 {
+    font-size: 16px !important;
+}

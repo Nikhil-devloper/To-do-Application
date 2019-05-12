@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+.home-container {
+  display: flex;
+
+}
+
+.item1 {
+  flex-basis: 50%;
+  height: 100vh;
+  margin-left: 5px;
+
+}
+
+.item2 {
+  flex-basis: 50%;
+  flex-grow: 0;
+  height: 90vh;
+  margin-left: 5px;
+  padding: 10px;
+  align-self: center;
+}
+
+.home-img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.home-text {
+  height: 90%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home-text-style {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 800;
+  color: #413E66;
+  text-align: center;
+}
+
+.home-text-icon {
+  color: #1BB1DC;
+}
+
+.material-icons{
+  font-size: 40px;
+}
+
+
+/* Pc in Minimum */
+@media only screen and (max-width: 992px) {
+  .home-container{
+    flex-direction: column-reverse;
+  }
+
+  .item2{
+     padding:30px;
+     height: 50vh;
+  }
+
+  .home-text-style{
+    align-self: flex-start;
+    font-size: 35px;
+  }
+
+}
+
+
+/* phone*/
+@media only screen and (max-width: 480px) {
+.home-container{
+  flex-direction: column-reverse;
+}
+
+.item2{
+   padding:30px;
+   height: 50vh;
+}
+
+.home-text-style{
+  align-self: flex-start;
+  font-size: 35px;
+}
+
+.item1 {
+  height: 60vh;
+}
+}

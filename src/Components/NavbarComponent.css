@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+.nav-main {
+  font-family: "Germania One";
+  font-size: 30px;
+  color: black;
+}
+
+.nav-main:hover {
+  text-decoration: none;
+  color: #1BB1DC !important;
+}
+
+
+
+.nav-link {
+  font-size: 18px;
+  width: 100%;
+  font-family: Montserrat;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #1BB1DC !important;
+}
+
+.nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #1BB1DC;
+  transition: width .3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-item {
+  padding-top: 1px;
+  border-color: black;
+  border-width: 0px;
+  border-style: solid;
+  text-align: center;
+}
+
+.AboutMeCotainer {
+  margin-right: 10px;
+}
+
+.NavbarContainer {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.bg-light{
+    box-shadow: 5px 6px 5px #929eb2;
+    background-color: white !important;
+}
+
+
+
+/* Pc in Minimum */
+@media only screen and (max-width: 992px) {
+}
+
+
+/* phone*/
+@media only screen and (max-width: 480px) {
+}

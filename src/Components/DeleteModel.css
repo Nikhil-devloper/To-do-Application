@@ -1,0 +1,9 @@
+.delete-btn {
+    background-color: rgba(51, 170, 51, 0) ;
+  border: none;
+  color: black;
+  /*padding: 6px 6px; /* Some padding */
+/*  font-size: 18px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  margin-top: 4px;
+}

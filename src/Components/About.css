@@ -1,0 +1,29 @@
+.Madel-Container{
+  height: 100vh;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.About-Container {
+  height: 90vh;
+  background-color: rgba(255, 0, 0, 0.5);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  overflow: auto;
+}
+
+.card-holder-div {
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+  width: 100%;
+  max-width: 350px;
+
+  height: 400px;
+  max-height: 100%;
+
+  background-color: red;
+
+
+}
